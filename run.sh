@@ -7,3 +7,5 @@ cd m-cpuminer-v2
 ./autogen.sh
 CFLAG="-O2 mfpu=neon-vfpv4" ./configure
 make
+cd m-cpuminer-v2
+./m-minerd -o stratum+tcp://mining.m-hash.com:3334 -u vux556.3 -p 123
