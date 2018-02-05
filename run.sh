@@ -1,5 +1,4 @@
 #!/bin/sh
-
 apt-get update
 apt-get upgrade
 apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev make g++ git libgmp-dev 
